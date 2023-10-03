@@ -1,0 +1,87 @@
+
+// Font URL
+
+$font-url: 'https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap';
+
+@font-face {
+    font-family: 'Farmer Textured';
+    src: url('../fonts/berlin_sans_fb_demi_bold-webfont.woff2') format('woff2'),
+        url('../fonts/berlin_sans_fb_demi_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Farmer Textured Rounded';
+    src: url('../fonts/thefarmertexturedrounded-webfont.woff2') format('woff2'),
+         url('../fonts/thefarmertexturedrounded-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Farmer Textured';
+    src: url('../fonts/thefarmertexturedregular-webfont.woff2') format('woff2'),
+         url('../fonts/thefarmertexturedregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Farmer Textured Vintage';
+    src: url('../fonts/thefarmertexturedvintage-webfont.woff2') format('woff2'),
+         url('../fonts/thefarmertexturedvintage-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// Font Family
+$theme-fonts: (
+    body: (
+        font-family: "'Jura', sans-serif",
+    ),
+    heading: (
+        font-family: "'Farmer Textured Vintage', sans-serif",
+    ),
+    berlin: (
+        font-family: "'Farmer Textured'",
+    ),
+    icon: (
+        font-family: '"Font Awesome 5 Free"',
+    )
+);
+
+
+// Font Size
+$font-size: (
+    body: (
+        font-size: 16px,
+    ),
+);
+
+
+// Line Height
+$theme-lh: (
+    body: (
+        line-height: 1.75,
+    ),
+    heading: (
+        line-height: 1.2,
+    ),
+);
+
+
+// Font Weight
+$font-weight: (
+    fw: (
+        extra-bold: 800,
+        bold: 700,
+        semi-bold: 600,
+        medium: 500,
+        regular: 400,
+        light: 300,
+    ),
+);
