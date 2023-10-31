@@ -1392,6 +1392,57 @@ Default Tab Style
 }
 
 /*=============================
+	1. Modal styles
+===============================*/
+.modal .modal-dialog {
+  background-color: var(--tg-theme-secondary);
+  max-width: 900px;
+}
+.modal .modal-dialog .container-fluid {
+  position: relative;
+}
+.modal .modal-header, .modal .modal-footer {
+  border: 0 transparent;
+}
+.modal .portrait {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5em;
+  overflow: hidden;
+}
+.modal .name {
+  position: absolute;
+  font-size: 3em;
+  top: 0.9rem;
+  left: 5rem;
+  width: 10em;
+  margin: 0 0 0 -5em;
+  z-index: 1;
+  text-align: center;
+}
+.modal .modal-header {
+  padding-bottom: 0;
+}
+.modal .modal-header .modal-title {
+  line-height: 1em;
+}
+.modal .modal-header .nav-pills {
+  background: rgba(255, 255, 255, 0.075);
+  width: 100%;
+}
+.modal .modal-body {
+  padding-top: 0;
+  font-size: 0.95em;
+  color: white;
+}
+.modal .modal-body p {
+  font-style: italic;
+}
+.modal .modal-content {
+  background-color: var(--tg-theme-secondary);
+}
+
+/*=============================
     00. Scroll Top
 ===============================*/
 .scroll__top {
