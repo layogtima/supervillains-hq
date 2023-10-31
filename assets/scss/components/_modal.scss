@@ -1,2 +1,65 @@
 @use '../utils' as *;
 
+/*=============================
+	1. Modal styles
+===============================*/
+
+.modal {
+    .modal-dialog {
+        background-color: var(--tg-theme-secondary);
+        max-width: 900px;
+
+        .container-fluid {
+            position: relative;
+        }
+    }
+
+    .modal-header, .modal-footer {
+        border:0 transparent;
+    }
+
+    .portrait {
+        width: 100%;
+        height: auto;
+        border-radius: 1.5em;
+        overflow: hidden;
+    }
+
+    .name {
+        position: absolute;
+        font-size: 3em;
+        top: 0.9rem;
+        left: 5rem;
+        width: 10em;
+        margin: 0 0 0 -5em;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .modal-header {
+        padding-bottom: 0;
+
+        .modal-title {
+            line-height: 1em;
+        }
+
+        .nav-pills {
+            background: rgba(255, 255, 255, 0.075);
+            width: 100%;
+        }
+    }
+
+    .modal-body {
+        padding-top: 0;
+        font-size: 0.95em;
+        color: white;
+
+        p {
+            font-style: italic;
+        }
+    }
+
+    .modal-content {
+        background-color: var(--tg-theme-secondary);
+    }
+}
