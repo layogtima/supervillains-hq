@@ -1662,7 +1662,7 @@ Default Tab Style
 }
 @media (max-width: 767.98px) {
   .tg-header__area .mobile-nav-toggler {
-    margin-top: 0;
+    margin-top: 0.25em;
   }
 }
 @media (max-width: 1199.98px) {
@@ -1909,11 +1909,21 @@ Default Tab Style
   font-family: var(--tg-heading-font-family);
   font-size: 4em;
 }
+@media (max-width: 767.98px) {
+  .logo {
+    font-size: 2.1em;
+  }
+}
 .logo a {
   display: inline-block;
 }
 .logo img {
   max-width: 177px;
+}
+@media (max-width: 767.98px) {
+  .logo img {
+    max-width: 50px;
+  }
 }
 
 .tg-sticky-menu {
@@ -3074,7 +3084,12 @@ Default Tab Style
 
 .about-area {
   background: transparent url(../img/about/background.jpg) no-repeat center center/cover;
-  padding-top: 17.5em !important;
+  padding-top: 17.5em;
+}
+@media (max-width: 767.98px) {
+  .about-area {
+    padding-top: 10em;
+  }
 }
 
 .about__buttons {

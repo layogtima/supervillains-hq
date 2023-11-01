@@ -23,7 +23,11 @@
 
 .about-area {
 	background: transparent url(../img/about/background.jpg) no-repeat center center / cover;
-    padding-top: 17.5em !important;
+    padding-top: 17.5em;
+
+    @media #{$xs} {
+        padding-top: 10em;
+    }
 }
 
 .about {
