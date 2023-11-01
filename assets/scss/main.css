@@ -2080,7 +2080,7 @@ Default Tab Style
   display: block;
   line-height: 1.5;
   padding: 11px 60px 11px 25px;
-  font-size: 15px;
+  font-size: 2em;
   font-weight: var(--tg-fw-semi-bold);
   color: var(--tg-heading-color);
   font-family: var(--tg-heading-font-family);
