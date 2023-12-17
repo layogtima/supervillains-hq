@@ -3083,8 +3083,12 @@ Default Tab Style
 }
 
 .about-area {
-  background: transparent url(../img/about/background.jpg) no-repeat center center/cover;
   padding-top: 17.5em;
+  z-index: 10;
+}
+.about-area p {
+  font-size: 1.5rem;
+  color: #fff;
 }
 @media (max-width: 767.98px) {
   .about-area {
@@ -8385,6 +8389,20 @@ blockquote p {
 /*=============================
     19. Footer
 ===============================*/
+footer {
+  background: black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 991.98px) {
+  footer {
+    text-align: center;
+  }
+}
+footer a:hover {
+  color: white;
+}
+
 .footer__top-wrap {
   padding: 80px 0 30px;
   border-top: 1px solid #151d23;
@@ -8432,8 +8450,14 @@ blockquote p {
 .footer-logo {
   margin: 0 0 30px;
 }
+.footer-logo img {
+  max-width: 150px;
+}
 .footer-text {
   margin-right: 30px;
+}
+.footer-text p {
+  font-size: 1.25rem;
 }
 @media (max-width: 767.98px) {
   .footer-text {
@@ -8455,12 +8479,8 @@ blockquote p {
 .footer-text .social-title span {
   color: var(--tg-theme-primary);
 }
-.footer-social {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 20px;
-}
 .footer-social a {
+  font-size: 2.5em;
   display: block;
 }
 .footer-social img {
@@ -8904,5 +8924,43 @@ blockquote p {
   }
   51% {
     opacity: 1;
+  }
+}
+.background-video-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.background-video-wrapper .background-video {
+  display: block;
+  position: absolute;
+  top: -30%;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+@media (max-width: 991.98px) {
+  .background-video-wrapper .background-video {
+    position: fixed;
+    top: 0;
+    width: auto;
+    left: -25%;
+    height: 180%;
+  }
+}
+.background-video-wrapper::after {
+  display: block;
+  position: absolute;
+  background-color: rgba(15, 3, 3, 0.85);
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  z-index: -1;
+}
+@media (max-width: 991.98px) {
+  .background-video-wrapper::after {
+    position: fixed;
+    background-color: rgba(15, 3, 3, 0.85);
   }
 }/*# sourceMappingURL=main.css.map */
