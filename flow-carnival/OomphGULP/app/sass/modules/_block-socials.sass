@@ -1,0 +1,71 @@
+.socials-text
+  display: block
+  font-size: 1.2rem
+  li
+    display: inline-block
+    font: normal 400 2rem/1 $caption-font
+    &::after
+      content: '/'
+      display: inline-block
+      height: auto
+      margin: 0 1rem 0 1.2rem
+      font: normal 400 2rem/1 $caption-font
+      text-transform: uppercase
+      letter-spacing: 0.1rem
+      color: $text-light
+    &:last-of-type
+      &::after
+        display: none
+    a
+      height: auto
+      font: normal 400 2rem/1 $caption-font
+      letter-spacing: 0.1rem
+      color: $text-light
+      transition: all $animation-duration
+    .no-touch &:hover
+      a
+        color: $text-light-mute
+  +MQ(XXL)
+    font-size: 2rem
+    li
+      &::after
+        font-size: 2rem
+      a
+        font-size: 2rem
+
+.socials-icons
+  display: block
+  margin-bottom: 1rem
+  li
+    display: inline-block
+    font: normal 400 1.2rem/1.2 $title-font
+    text-transform: uppercase
+    letter-spacing: 0.1rem
+    margin-right: 2.4rem
+    &:last-of-type
+      margin-right: 0
+    a
+      height: auto
+      font: normal 400 1.2rem/1.2 $title-font
+      text-transform: uppercase
+      letter-spacing: 0.1rem
+      color: $text-light
+      transition: all $animation-duration
+      .no-touch &:hover
+        color: tint($accent-color, 30%)
+  +MQ(M)
+    margin-bottom: 0
+  +MQ(XXL)
+    li
+      font-size: 1.3rem
+      a
+        font-size: 1.3rem
+
+.email-link
+  display: inline-block
+  font: normal 400 2rem/1 $caption-font
+  letter-spacing: 0.1rem
+  color: $text-light-base
+  transition: color 0.3s ease-in-out
+  .no-touch &:hover
+    color: tint($accent-color, 30%)

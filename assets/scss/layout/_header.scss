@@ -20,7 +20,7 @@
         -webkit-transition: all 0.4s ease;
         transition: all 0.4s ease;
         &.tg-sticky-menu {
-            padding: 0 0;
+            padding: 1em 0;
             @media #{$lg} {
                 padding: 18px 0;
             }
@@ -323,11 +323,12 @@
 	width: 100%;
     @include transform(translateY(-100%));
 	z-index: 99;
-	background: var(--tg-common-color-gray);
+	background: var(--tg-theme-secondary);
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 	border-radius: 0;
     opacity: 0;
+    
     &.sticky-menu__show {
         @include transform(unset);
         -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);

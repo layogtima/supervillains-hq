@@ -1,0 +1,35 @@
+.show-skillbar
+  display: block
+  padding: 0
+  margin-bottom: 3rem
+  &:last-of-type
+    margin-bottom: 0
+
+.skillbar
+  position: relative
+  width: 100%
+  height: 3rem
+  border-bottom: 1px solid rgba(#000000,0.16)
+
+.skillbar-title
+  +position(absolute, 0 null null 0)
+  font: normal 600 1.8rem/1.8 $title-font
+  text-transform: uppercase
+  color: $text-dark
+  height: 3rem
+
+.skillbar-bar
+  display: inline-block
+  +position(absolute, null null -1px 0)
+  width: 0px
+  height: 1px
+  background-color: $black
+
+.skill-bar-percent
+  display: block
+  +position(absolute, 0 0 null null)
+  font: normal 600 1.8rem/1.8 $title-font
+  font-variant-numeric: lining-nums
+  text-transform: uppercase
+  color: $text-dark
+  height: 3rem

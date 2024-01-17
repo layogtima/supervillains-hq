@@ -1,0 +1,212 @@
+h1
+  display: inline-block
+  position: relative
+  font: normal 500 5rem/1 $title-font
+  text-transform: uppercase
+  color: $text-dark
+  margin-top: 1.6rem
+  &.light
+    color: $text-light
+  +MQ(M)
+    font-size: 6rem
+  +MQ(XXL)
+    font-size: 8rem
+
+.headline__subtitle
+  display: block
+  font: normal 400 3.4rem/1.6 $caption-font
+  color: $text-light-base
+
+.headline__text
+  font: normal 400 1.4rem/1.6 $default-font
+  color: $text-light-base
+  margin: 2rem auto 0
+  max-width: 380px
+  a
+    color: $text-light-base
+    transition: color .3s
+    .no-touch &:hover
+      color: $accent-color
+  +MQ(XXL)
+    font-size: 1.8rem
+    max-width: 500px
+
+.headline__btnholder
+  margin-top: 3.2rem
+
+h2
+  font: normal 500 4.4rem/1 $title-font
+  text-transform: uppercase
+  color: $text-dark
+  +MQ(M)
+    font-size: 5rem
+  +MQ(XXL)
+    font-size: 7rem
+
+.section__subtitle
+  display: block
+  font: normal 400 3.4rem/1.2 $caption-font
+  color: $text-dark
+  margin-top: 1.7rem
+
+.section__text
+  font: normal 400 1.4rem/1.6 $default-font
+  color: $text-base
+  margin-top: 1.9rem
+  a,
+  span
+    font-weight: 500
+    color: $text-dark
+  a
+    text-decoration: underline
+    transition: color 0.3s ease-in-out
+    .no-touch &:hover
+      color: $accent-color
+  +MQ(XXL)
+    font-size: 1.6rem
+
+h3
+  font: normal 500 2.8rem/1 $title-font
+  text-transform: uppercase
+  color: $text-dark
+  +MQ(M)
+    font-size: 3.2rem
+
+.block__subtitle
+  display: block
+  font: normal 400 3.4rem/1.2 $caption-font
+  color: $text-dark
+  margin-top: 1.8rem
+
+.block__text
+  font: normal 400 1.4rem/1.6 $default-font
+  color: $text-base
+  margin-top: 1.6rem
+  +MQ(XXL)
+    font-size: 1.6rem
+
+h4
+  font: normal 600 1.8rem/1 $title-font
+  text-transform: uppercase
+  color: $text-dark
+  small
+    display: block
+    text-transform: none
+    font: italic 400 2rem/1.6 $caption-font
+    letter-spacing: 0.1rem
+    color: $text-base
+
+h5
+  font: normal 600 1.7rem/1 $title-font
+  text-transform: uppercase
+  color: $text-dark
+
+p
+  font: normal 400 1.4rem/1.6 $default-font
+  color: $text-light-base
+  span
+    color: $text-light
+  &.additional-text
+    font: normal 400 2rem/1 $caption-font
+    letter-spacing: 0.1rem
+    color: $text-light
+    i
+      font-size: 1.4rem
+    a
+      color: $text-light
+      .no-touch &:hover
+        color: $text-light-mute
+  +MQ(XXL)
+    font-size: 1.6rem
+
+.popup__title
+  display: block
+  font: normal 500 3.4rem/1 $title-font
+  text-transform: uppercase
+  margin-top: 1.6rem
+  color: $text-light
+  +MQ(M)
+    font-size: 4rem
+  +MQ(XXL)
+    font-size: 5rem
+
+.popup__subtitle
+  display: block
+  font: normal 400 3.4rem/1.6 $caption-font
+  //letter-spacing: 0.1rem
+  color: $text-light-base
+  +MQ(XXL)
+    font-size: 3.4rem
+
+.popup__text
+  font: normal 400 1.4rem/1.6 $default-font
+  color: $text-light-base
+  margin-top: 2rem
+  +MQ(XXL)
+    font-size: 1.6rem
+
+.navigation
+  li
+    display: block
+    padding: 1.4rem 0
+    span
+      display: block
+      font: normal 400 2.8rem/1.4 $caption-font
+      color: $text-light-mute
+      padding-left: 2px
+    a
+      font: normal 400 4.4rem/1 $title-font
+      text-transform: uppercase
+      color: $text-light
+      transition: all .3s ease-in-out
+      .no-touch &:hover
+        color: $accent-color
+  +MQ(M)
+    li
+      a
+        font-size: 5rem
+  +MQ(XL)
+    li
+      span
+        font-size: 3rem
+  +MQ(XXL)
+    li
+      a
+        font-size: 7rem
+
+blockquote
+  display: block
+  position: relative
+  p
+    font: normal 400 3.4rem/1.6 $caption-font
+    color: $text-dark
+  cite
+    display: block
+    font: normal 400 1.2rem/1.6 $default-font
+    color: $text-base
+    margin-top: 2.2rem
+    span
+      display: block
+  &::before
+    content: ""
+    display: block
+    width: 65px
+    height: 50px
+    margin-bottom: 3.2rem
+    background-repeat: no-repeat
+    background-size: auto
+    background-image: url("../img/icons/icon-quote.svg")
+  &.light
+    p
+      color: $text-light
+    cite
+      color: $text-light-base
+  +MQ(M)
+    p
+      max-width: 520px
+  +MQ(XXL)
+    p
+      max-width: 628px
+      font-size: 4rem
+    cite
+      font-size: 1.4rem
