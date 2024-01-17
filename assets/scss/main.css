@@ -94,6 +94,7 @@
   --tg-heading-color: #fff;
   --tg-theme-primary: #f00;
   --tg-theme-secondary: #000;
+  --tg-theme-tertiary: #fff;
   --tg-border-1: #19222b;
   --tg-border-2: #22292f;
   --tg-border-3: #2c3137;
@@ -145,7 +146,7 @@ a:focus,
 
 a:hover,
 button:hover {
-  color: var(--tg-theme-secondary);
+  color: var(--tg-theme-tertiary);
   text-decoration: none;
 }
 
@@ -1112,8 +1113,8 @@ html.show-preloader body {
   left: 0;
   bottom: 0;
   width: 50%;
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
-  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  -webkit-clip-path: polygon(0 90%, 0 100%, 100% 100%);
+  clip-path: polygon(0 90%, 0 100%, 100% 100%);
   background-color: var(--tg-theme-primary);
   height: 50px;
 }
@@ -1135,8 +1136,8 @@ html.show-preloader body {
 .breadcrumb-area::after {
   left: auto;
   right: 0;
-  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
-  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  -webkit-clip-path: polygon(100% 90%, 0 100%, 100% 100%);
+  clip-path: polygon(100% 90%, 0 100%, 100% 100%);
 }
 .breadcrumb__wrapper {
   position: relative;
@@ -1161,7 +1162,7 @@ html.show-preloader body {
 }
 @media (max-width: 1500px) {
   .breadcrumb__content .title {
-    font-size: 50px;
+    font-size: 3.6em;
     letter-spacing: 2px;
   }
 }
@@ -1614,6 +1615,11 @@ Default Tab Style
   opacity: 1;
 }
 
+.event-deets {
+  font-size: 1.3em;
+  margin-top: 0.75em;
+}
+
 /*=============================
 	02. Header
 ===============================*/
@@ -1636,7 +1642,7 @@ Default Tab Style
   transition: all 0.4s ease;
 }
 .tg-header__area.tg-sticky-menu {
-  padding: 0 0;
+  padding: 1em 0;
 }
 @media (max-width: 1199.98px) {
   .tg-header__area.tg-sticky-menu {
@@ -1934,7 +1940,7 @@ Default Tab Style
   width: 100%;
   transform: translateY(-100%);
   z-index: 99;
-  background: var(--tg-common-color-gray);
+  background: var(--tg-theme-secondary);
   transition: all 0.4s ease;
   border-radius: 0;
   opacity: 0;
@@ -8466,7 +8472,7 @@ footer a:hover {
 }
 .footer-text .desc {
   margin: 0 0 25px;
-  font-size: 15px;
+  font-size: 1.4rem;
 }
 .footer-text .social-title {
   margin: 0 0 25px;

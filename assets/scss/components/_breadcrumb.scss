@@ -29,8 +29,8 @@
             left: 0;
             bottom: 0;
             width: 50%;
-            -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
-            clip-path: polygon(0 0, 0 100%, 100% 100%);
+            -webkit-clip-path: polygon(0 90%, 0 100%, 100% 100%);
+            clip-path: polygon(0 90%, 0 100%, 100% 100%);
             background-color: var(--tg-theme-primary);
             height: 50px;
             @media #{$xl} {
@@ -46,8 +46,8 @@
         &::after {
             left: auto;
             right: 0;
-            -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
-            clip-path: polygon(100% 0, 0 100%, 100% 100%);
+            -webkit-clip-path: polygon(100% 90%, 0 100%, 100% 100%);
+            clip-path: polygon(100% 90%, 0 100%, 100% 100%);
         }
     }
     &__wrapper {
@@ -68,7 +68,7 @@
             line-height: 1;
             margin: 0 0;
             @media #{$xl} {
-                font-size: 50px;
+                font-size: 3.6em;
                 letter-spacing: 2px;
             }
             @media #{$xs} {
