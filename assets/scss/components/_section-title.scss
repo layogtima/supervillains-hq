@@ -42,6 +42,14 @@
         height: 5px;
         margin: 20px auto 0;
     }
+
+    &.left {
+        &::after {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
     &.title-shape-none {
         &::after {
             display: none;

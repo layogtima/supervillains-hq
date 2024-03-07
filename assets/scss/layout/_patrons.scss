@@ -1,0 +1,32 @@
+@use '../utils' as *;
+
+.patrons {
+    padding: 3em 0;
+    background: rgba(0, 0, 0, 0.75);
+
+    @media #{$xs} {
+        padding: 1em 0;
+    }
+
+    h1.section-title {
+        &:after {
+            display: none; 
+        }
+    }
+
+    .brand__link {
+        height: auto;
+    }
+
+    img {
+        max-width: 150px;
+
+        @media #{$sm} {
+            max-width: 100px;
+        }
+
+        @media #{$xs} {
+            max-width: 75px;
+        }
+    }
+}
