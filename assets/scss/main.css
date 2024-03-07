@@ -3379,6 +3379,7 @@ Default Tab Style
   }
 }
 .about__funFact-images::after {
+  display: none;
   content: "";
   position: absolute;
   bottom: 0;
@@ -8495,7 +8496,8 @@ footer a:hover {
 }
 .footer-social a {
   font-size: 2.5em;
-  display: block;
+  padding: 0 0.25em;
+  display: inline-block;
 }
 .footer-social img {
   max-width: 30px;
