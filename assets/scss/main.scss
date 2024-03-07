@@ -19,6 +19,10 @@
 @forward 'layout/nft';
 @forward 'layout/about';
 @forward 'layout/gallery';
+@forward 'layout/supersquad';
+@forward 'layout/patrons';
+@forward 'layout/flow';
+@forward 'layout/why';
 @forward 'layout/team';
 @forward 'layout/video';
 @forward 'layout/roadmap';
@@ -41,7 +45,7 @@
 
     .background-video {
         display: block;
-        position: absolute;
+        position: fixed;
         top: -30%;
         left: 0;
         width: 100%;
