@@ -422,7 +422,8 @@ var streamersSwiper = new Swiper('.streamers-active', {
 $('.brand-active').slick({
 	dots: false,
 	infinite: true,
-	speed: 500,
+    autoplaySpeed: 1500,
+	speed: 750,
 	autoplay: true,
 	arrows: false,
 	slidesToShow: 6,
@@ -434,13 +435,17 @@ $('.brand-active').slick({
 				slidesToShow: 5,
 				slidesToScroll: 1,
 				infinite: true,
+                autoplaySpeed: 1250,
+                speed: 750,
 			}
 		},
 		{
 			breakpoint: 992,
 			settings: {
 				slidesToShow: 4,
-				slidesToScroll: 1
+				slidesToScroll: 1,
+                autoplaySpeed: 1250,
+                speed: 750,
 			}
 		},
 		{
@@ -449,6 +454,8 @@ $('.brand-active').slick({
 				slidesToShow: 4,
 				slidesToScroll: 1,
 				arrows: false,
+                autoplaySpeed: 1000,
+                speed: 500,
 			}
 		},
 		{
@@ -457,6 +464,8 @@ $('.brand-active').slick({
 				slidesToShow: 3,
 				slidesToScroll: 1,
 				arrows: false,
+                autoplaySpeed: 1000,
+                speed: 500,
 			}
 		},
 	]
