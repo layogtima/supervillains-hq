@@ -223,11 +223,16 @@ h6 {
 
 p {
   font-family: var(--tg-body-font-family);
-  font-size: var(--tg-body-font-size);
+  font-size: 1.5rem;
   line-height: var(--tg-body-line-height);
   font-weight: var(--tg-fw-regular);
   color: var(--tg-body-color);
   margin-bottom: 15px;
+}
+@media (max-width: 767.98px) {
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 hr {
@@ -4222,6 +4227,9 @@ Default Tab Style
     padding: 1em 0;
   }
 }
+.patrons .slick-list {
+  padding: 1em 0 0;
+}
 .patrons h1.section-title:after {
   display: none;
 }
@@ -4238,7 +4246,7 @@ Default Tab Style
 }
 @media (max-width: 767.98px) {
   .patrons img {
-    max-width: 75px;
+    max-width: 85px;
   }
 }
 
@@ -4250,9 +4258,18 @@ Default Tab Style
   background-repeat: no-repeat;
   background-position: top right;
 }
+@media (max-width: 767.98px) {
+  .flow {
+    background-size: 55%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .flow {
+    background-size: 75%;
+  }
+}
 .flow p {
   color: #fff;
-  font-size: 1.5rem;
   margin-bottom: 2em;
 }
 .flow h2 {
@@ -4261,13 +4278,35 @@ Default Tab Style
 .flow p.cite {
   font-size: 1.15rem;
 }
+.flow .host-us {
+  display: inline-block;
+  border-radius: 100em;
+  color: #000;
+  width: auto;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.flow .host-us > * {
+  display: inline-block;
+}
+.flow .host-us img {
+  float: right;
+  padding-left: 1em;
+}
+.flow .host-us:visited {
+  background-color: red;
+}
+.flow .host-us:link, .flow .host-us:hover {
+  background-color: #fff;
+  color: #000;
+}
 
 .why {
   background-color: #000;
 }
 .why p {
   color: #fff;
-  font-size: 1.5rem;
   margin-bottom: 2em;
 }
 
@@ -4924,7 +4963,7 @@ Default Tab Style
 }
 @media (max-width: 767.98px) {
   .section-pt-150 {
-    padding-top: 100px;
+    padding-top: 45px;
   }
 }
 
@@ -4933,7 +4972,7 @@ Default Tab Style
 }
 @media (max-width: 767.98px) {
   .section-pb-150 {
-    padding-bottom: 100px;
+    padding-bottom: 45px;
   }
 }
 

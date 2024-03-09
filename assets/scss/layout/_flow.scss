@@ -1,3 +1,5 @@
+@use '../utils' as *;
+
 .flow {
     padding-top: 4em;
     padding-bottom: 3.5em;
@@ -5,10 +7,17 @@
     background-image: url(/assets/img/gifs/flow-fly-away.webp);
     background-repeat: no-repeat;
     background-position: top right;
+    
+    @media #{$xs} {
+        background-size: 55%;
+    }
+
+    @media #{$sm} {
+        background-size: 75%;
+    }
 
     p {
         color: #fff;
-        font-size: 1.5rem;
         margin-bottom: 2em;
     }
 
@@ -18,5 +27,33 @@
 
     p.cite {
         font-size: 1.15rem;
+    }
+
+    .host-us {
+        display: inline-block;
+        border-radius: 100em;
+        color: #000;
+        width: auto;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        font-weight: bold;
+
+        > * {
+            display: inline-block;
+        }
+
+        img {
+            float: right;
+            padding-left: 1em;
+        }
+
+        &:visited {
+            background-color: red;
+        }
+
+        &:link, &:hover {
+            background-color: #fff;
+            color: #000;
+        }
     }
 }
