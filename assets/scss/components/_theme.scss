@@ -133,11 +133,15 @@ h6 {
 }
 p {
 	font-family: var(--tg-body-font-family);
-	font-size: var(--tg-body-font-size);
+	font-size: 1.5rem;
 	line-height: var(--tg-body-line-height);
 	font-weight: var(--tg-fw-regular);
 	color: var(--tg-body-color);
 	margin-bottom: 15px;
+
+	@media #{$xs} {
+        font-size: 1.2rem;;
+    }
 }
 hr {
 	border-bottom: 1px solid var(--tg-common-color-gray);

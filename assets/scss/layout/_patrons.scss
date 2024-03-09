@@ -8,6 +8,10 @@
         padding: 1em 0;
     }
 
+    .slick-list {
+        padding: 1em 0 0
+    }
+
     h1.section-title {
         &:after {
             display: none; 
@@ -26,7 +30,7 @@
         }
 
         @media #{$xs} {
-            max-width: 75px;
+            max-width: 85px;
         }
     }
 }
