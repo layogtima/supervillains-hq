@@ -8612,7 +8612,7 @@ footer a:hover {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.65);
     border-radius: 0 1em 0 0;
-    padding-top: 0.5em;
+    padding: 0.25em 0.35em 0;
     z-index: 10000;
   }
   .footer-social h1 {
@@ -8626,8 +8626,9 @@ footer a:hover {
 }
 @media (max-width: 991.98px) {
   .footer-social a {
-    font-size: 1.5em;
-    padding: 0 0.45em;
+    font-size: 1.65em;
+    line-height: 1.65em;
+    padding: 0 0.35em;
   }
 }
 .footer-social img {
