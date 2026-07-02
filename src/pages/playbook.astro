@@ -1,42 +1,54 @@
 ---
-import '../styles/playbook.css';
-import PlaybookPaper from '../components/playbook/PlaybookPaper.vue';
+import "../styles/playbook.css";
+import PlaybookPaper from "../components/playbook/PlaybookPaper.vue";
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Playbook — Bengaluru's Least Trusted Newspaper</title>
-    <meta
-      name="description"
-      content="A satirical hyperlocal newspaper about Bengaluru's flow-arts and play community, printed nightly by robots under the editorial neglect of The Badger."
-    />
-    <meta property="og:title" content="The Playbook — Bengaluru's Least Trusted Newspaper" />
-    <meta
-      property="og:description"
-      content="Breaking: Bangalore hit by an epidemic of laughter. A living newspaper of the flow community, regenerated every night."
-    />
-    <meta property="og:type" content="website" />
-    <link rel="icon" href="/assets/img/logo/badger.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <PlaybookPaper client:only="vue" />
-    <noscript>
-      <main style="max-width: 36rem; margin: 6rem auto; text-align: center; font-family: Georgia, serif;">
-        <h1 style="font-size: 3rem;">The Playbook</h1>
-        <p style="border: 3px solid #e01313; color: #e01313; display: inline-block; padding: 0.5rem 1rem; text-transform: uppercase; font-weight: bold;">
-          Presses jammed
-        </p>
-        <p><em>This newspaper is printed with JavaScript. Enable it, and the presses roll.</em></p>
-      </main>
-    </noscript>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Playbook — Bengaluru's Play Newspaper</title>
+        <meta
+            name="description"
+            content="A satirical hyperlocal newspaper about Bengaluru's flow-arts and play community, printed nightly by robots under the editorial neglect of The Badger."
+        />
+        <meta
+            property="og:title"
+            content="The Playbook — Bengaluru's Play Newspaper"
+        />
+        <meta
+            property="og:description"
+            content="Breaking: Bangalore hit by an epidemic of laughter. A living newspaper of the flow community, regenerated every night."
+        />
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="/assets/img/logo/badger.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <PlaybookPaper client:only="vue" />
+        <noscript>
+            <main
+                style="max-width: 36rem; margin: 6rem auto; text-align: center; font-family: Georgia, serif;"
+            >
+                <h1 style="font-size: 3rem;">The Playbook</h1>
+                <p
+                    style="border: 3px solid #e01313; color: #e01313; display: inline-block; padding: 0.5rem 1rem; text-transform: uppercase; font-weight: bold;"
+                >
+                    Presses jammed
+                </p>
+                <p>
+                    <em
+                        >This newspaper is printed with JavaScript. Enable it,
+                        and the presses roll.</em
+                    >
+                </p>
+            </main>
+        </noscript>
+    </body>
 </html>

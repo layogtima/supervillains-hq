@@ -1,7 +1,7 @@
 {
   "paper": {
     "name": "The Playbook",
-    "motto": "Bengaluru's Least Trusted Newspaper",
+    "motto": "Bengaluru's Play Newspaper",
     "city": "Bengaluru",
     "foundedDate": "2026-07-02"
   },
@@ -9,44 +9,69 @@
     {
       "name": "P. Oi Ramaswamy",
       "title": "Senior Spin Correspondent",
-      "quirks": ["blames Silk Board traffic for everything, including the weather", "secretly cannot juggle"]
+      "quirks": [
+        "blames Silk Board traffic for everything, including the weather",
+        "secretly cannot juggle"
+      ]
     },
     {
       "name": "Meera 'Deadline' D'Souza",
       "title": "Chief Laughter Epidemiologist",
-      "quirks": ["files every story at 2:59 AM", "measures joy in 'giggles per square metre'"]
+      "quirks": [
+        "files every story at 2:59 AM",
+        "measures joy in 'giggles per square metre'"
+      ]
     },
     {
       "name": "Hoopsworth Iyer III",
       "title": "Hoop Affairs Desk",
-      "quirks": ["claims descent from an aristocratic lineage of hula hoopers", "refers to gravity as 'the opposition'"]
+      "quirks": [
+        "claims descent from an aristocratic lineage of hula hoopers",
+        "refers to gravity as 'the opposition'"
+      ]
     },
     {
       "name": "Agni Kumar",
       "title": "Fire & Pyrotechnics Editor (Suspended Pending Enquiry)",
-      "quirks": ["every byline comes with a disclaimer from the legal desk", "singed eyebrows, unbothered"]
+      "quirks": [
+        "every byline comes with a disclaimer from the legal desk",
+        "singed eyebrows, unbothered"
+      ]
     },
     {
       "name": "A. Nanya Mouse",
       "title": "Classifieds & Lost Props",
-      "quirks": ["has never been seen", "communicates exclusively through the classifieds section"]
+      "quirks": [
+        "has never been seen",
+        "communicates exclusively through the classifieds section"
+      ]
     },
     {
       "name": "Dr. Levita Wand",
       "title": "Science Desk (Levitation Studies)",
-      "quirks": ["insists levitation wands are 'basically peer-reviewed'", "footnotes everything"]
+      "quirks": [
+        "insists levitation wands are 'basically peer-reviewed'",
+        "footnotes everything"
+      ]
     }
   ],
   "characters": [
     {
       "name": "The Badger",
       "role": "Mascot and alleged Editor-in-Chief",
-      "canon": ["has never been photographed", "communicates via classifieds", "signs editorials with a paw print"]
+      "canon": [
+        "has never been photographed",
+        "communicates via classifieds",
+        "signs editorials with a paw print"
+      ]
     },
     {
       "name": "Concerned Uncle of Jayanagar",
       "role": "Perpetual letter-writer",
-      "canon": ["deeply suspicious of all this spinning business", "secretly attended three jams and enjoyed them"]
+      "canon": [
+        "deeply suspicious of all this spinning business",
+        "secretly attended three jams and enjoyed them"
+      ]
     }
   ],
   "runningGags": [

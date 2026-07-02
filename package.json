@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "engine:dev": "wrangler dev --config workers/playbook-engine/wrangler.jsonc --port 8799",
-    "engine:deploy": "wrangler deploy --config workers/playbook-engine/wrangler.jsonc"
+    "engine:deploy": "wrangler deploy --config workers/playbook-engine/wrangler.jsonc",
+    "seed:edition": "bash scripts/seed-edition.sh"
   },
   "dependencies": {
     "@astrojs/vue": "^5.0.0",

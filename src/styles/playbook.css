@@ -6,7 +6,7 @@
   --color-ink: #1c1a17;
   --color-ink-faint: #1c1a1755;
   --color-press-red: #e01313;
-  --font-blackletter: "UnifrakturCook", serif;
+  --font-blackletter: "Grenze Gotisch", serif;
   --font-display: "Playfair Display", Georgia, serif;
   --font-body: "Old Standard TT", Georgia, serif;
 }
@@ -55,16 +55,15 @@
   mix-blend-mode: multiply;
 }
 
-/* Torn red clipping (masthead accent) */
-.torn-clip {
-  background: var(--color-press-red);
-  clip-path: polygon(
-    2% 6%, 9% 0%, 22% 4%, 34% 1%, 47% 5%, 60% 0%, 73% 4%, 86% 1%, 97% 5%,
-    100% 22%, 97% 38%, 100% 55%, 96% 72%, 99% 88%, 93% 100%,
-    78% 96%, 63% 100%, 49% 95%, 34% 100%, 20% 96%, 8% 100%, 0% 92%,
-    3% 74%, 0% 55%, 4% 38%, 1% 20%
-  );
-  filter: drop-shadow(2px 3px 0 rgba(28, 26, 23, 0.35));
+/* Badger emblem — an ink "editor's seal", no red box */
+.badger-seal {
+  border: 3px double var(--color-ink);
+  border-radius: 9999px;
+  background: color-mix(in srgb, var(--color-paper) 55%, transparent);
+}
+.badger-seal img {
+  /* the badger is knocked-out ink line-art; keep it crisp on cream */
+  filter: contrast(1.05);
 }
 
 /* Multi-column article flow with hairline rules */

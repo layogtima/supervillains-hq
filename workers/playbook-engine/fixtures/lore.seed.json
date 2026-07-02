@@ -1,0 +1,132 @@
+{
+  "paper": {
+    "name": "The Playbook",
+    "motto": "Bengaluru's Play Newspaper",
+    "city": "Bengaluru",
+    "foundedDate": "2026-07-02"
+  },
+  "staff": [
+    {
+      "name": "P. Oi Ramaswamy",
+      "title": "Senior Spin Correspondent",
+      "quirks": [
+        "blames Silk Board traffic for everything, including the weather",
+        "secretly cannot juggle"
+      ]
+    },
+    {
+      "name": "Meera 'Deadline' D'Souza",
+      "title": "Chief Laughter Epidemiologist",
+      "quirks": [
+        "files every story at 2:59 AM",
+        "measures joy in 'giggles per square metre'"
+      ]
+    },
+    {
+      "name": "Hoopsworth Iyer III",
+      "title": "Hoop Affairs Desk",
+      "quirks": [
+        "claims descent from an aristocratic lineage of hula hoopers dating to 1987",
+        "refers to gravity as 'the opposition'"
+      ]
+    },
+    {
+      "name": "Agni Kumar",
+      "title": "Fire & Pyrotechnics Editor (Suspended Pending Enquiry)",
+      "quirks": [
+        "every byline comes with a disclaimer from the legal desk",
+        "singed eyebrows, unbothered",
+        "will not discuss 'the incident'"
+      ]
+    },
+    {
+      "name": "A. Nanya Mouse",
+      "title": "Classifieds & Lost Props",
+      "quirks": [
+        "has never been seen",
+        "communicates exclusively through the classifieds section"
+      ]
+    },
+    {
+      "name": "Dr. Levita Wand",
+      "title": "Science Desk (Levitation Studies)",
+      "quirks": [
+        "insists levitation is 'basically peer-reviewed'",
+        "footnotes everything, twice"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Badger",
+      "role": "Mascot and alleged Editor-in-Chief",
+      "canon": [
+        "has never been photographed",
+        "communicates via classifieds",
+        "signs editorials with a paw print",
+        "reward for a photo now stands at four filter coffees"
+      ]
+    },
+    {
+      "name": "Concerned Uncle of Jayanagar",
+      "role": "Perpetual letter-writer",
+      "canon": [
+        "deeply suspicious of all this spinning business",
+        "secretly attended the beginner workshop twice and applauded",
+        "quietly enquiring about the silk fan class"
+      ]
+    },
+    {
+      "name": "The Reserve Bank Economist",
+      "role": "Recurring victim of the ₹100 staff-jam paradox",
+      "canon": [
+        "cannot make the numbers work",
+        "has started laughing at meetings"
+      ]
+    }
+  ],
+  "runningGags": [
+    {
+      "premise": "Bengaluru is periodically hit by 'epidemics of laughter' traced back to Cubbon Park jams; authorities remain baffled and enjoy it",
+      "timesUsed": 2,
+      "lastUsed": "2026-07-02"
+    },
+    {
+      "premise": "The Great Hoop Shortage — hoops keep 'mysteriously vanishing' whenever @hoopwithsupriya posts or gains followers",
+      "timesUsed": 1,
+      "lastUsed": "2026-07-02"
+    },
+    {
+      "premise": "The Laughter Index, reported daily in the weather box like the air quality index, is never below 'chance of giggles'",
+      "timesUsed": 1,
+      "lastUsed": "2026-07-02"
+    },
+    {
+      "premise": "Captain Technofire denies setting the sky on fire; eyewitnesses disagree",
+      "timesUsed": 1,
+      "lastUsed": "2026-07-02"
+    },
+    {
+      "premise": "The ₹100 Sunday staff jam 'includes the staff', a value proposition that breaks economists",
+      "timesUsed": 1,
+      "lastUsed": "2026-07-02"
+    }
+  ],
+  "canonEvents": [
+    {
+      "date": "2026-07-02",
+      "summary": "Vol I, No. 1 goes to print. Lead: Cubbon Park's ₹100 Sunday staff jam secedes from seriousness. Google India breached; Supriya's hoop empire hits 8,885; Mufasa resigns from smallness; Dapostar Level 2 opens. The Badger declines to comment."
+    }
+  ],
+  "styleNotes": [
+    "headlines are always slightly too dramatic for the event being described",
+    "affectionate, never mean — real people from captions become recurring heroes",
+    "Bengaluru specifics encouraged: Cubbon Park, HSR, Indiranagar, Church Street, auto rides, Silk Board traffic, sudden rain, filter coffee",
+    "the weather box reports the Laughter Index instead of the weather",
+    "price is always ₹0 (priceless)"
+  ],
+  "counters": {
+    "volume": 1,
+    "issueNumber": 1
+  }
+}
