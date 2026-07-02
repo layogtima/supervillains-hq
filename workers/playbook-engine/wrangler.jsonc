@@ -1,0 +1,37 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "playbook-engine",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  // Nightly edition at 03:00 IST (21:30 UTC)
+  "triggers": {
+    "crons": ["30 21 * * *"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "PLAYBOOK",
+      // Replace with the real namespace id after `wrangler kv namespace create PLAYBOOK`.
+      // The placeholder works fine for local `wrangler dev` (miniflare uses local storage).
+      "id": "REPLACE_WITH_KV_NAMESPACE_ID"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "IMAGES",
+      // Create with `wrangler r2 bucket create playbook-images` before deploying.
+      "bucket_name": "playbook-images"
+    }
+  ],
+  // Attach once supervillains.wtf is on this Cloudflare account:
+  // "routes": [{ "pattern": "supervillains.wtf/api/playbook/*", "zone_name": "supervillains.wtf" }],
+  "observability": {
+    "enabled": true
+  }
+  // Secrets (set with `wrangler secret put <NAME> --config workers/playbook-engine/wrangler.jsonc`):
+  //   ANTHROPIC_API_KEY  — required, powers the editorial board
+  //   APIFY_TOKEN        — recommended, primary Instagram scrape provider
+  //   RUN_KEY            — shared secret for the manual POST /api/playbook/run trigger
+  // For local dev, put them in .dev.vars at the repo root (gitignored).
+}

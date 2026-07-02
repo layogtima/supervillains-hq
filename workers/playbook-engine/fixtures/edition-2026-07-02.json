@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "date": "2026-07-02",
+    "volume": 1,
+    "issue": 1,
+    "edition": "Morning Edition",
+    "price": "₹0 (priceless)",
+    "motto": "Bengaluru's Least Trusted Newspaper",
+    "laughterIndexVariants": [
+      "74% — scattered giggles, chance of full cackle by dusk",
+      "68% — mild chuckling over Koramangala, snort warnings in HSR",
+      "81% — dangerously high; avoid eye contact with jugglers"
+    ],
+    "breakingTicker": [
+      "HOOP SPOTTED LEVITATING NEAR CHURCH STREET; PHYSICS DEPARTMENT 'LOOKING INTO IT'",
+      "SILK BOARD TRAFFIC BRIEFLY FORGOTTEN DURING IMPROMPTU POI DEMONSTRATION",
+      "BADGER STILL NOT PHOTOGRAPHED; REWARD RAISED TO THREE FILTER COFFEES",
+      "AUTO DRIVER ACCEPTS JUGGLING LESSON IN LIEU OF ₹20 EXTRA",
+      "CUBBON PARK SQUIRRELS FORM UNION, DEMAND SUNDAY JAM SNACK RIGHTS",
+      "MONSOON POSTPONED TWENTY MINUTES OUT OF RESPECT FOR FIRE SPINNERS"
+    ],
+    "scrapeFreshness": "fresh"
+  },
+  "articles": [
+    {
+      "slug": "staff-jam-cubbon",
+      "kicker": "EXCLUSIVE",
+      "headlines": [
+        "EVERY SUNDAY, CUBBON PARK BRIEFLY SECEDES FROM REALITY",
+        "STAFF JAM DECLARED 'UNREASONABLY WHOLESOME' BY BAFFLED AUTHORITIES",
+        "CAPTAIN TECHNOFIRE SUMMONS CITIZENS TO WEEKLY SPINNING RITUAL; CITY OBEYS"
+      ],
+      "subhead": "Eyewitnesses describe 'unreasonable levels of wow' as the weekly staff jam enters its umpteenth glorious Sunday",
+      "byline": { "name": "P. Oi Ramaswamy", "title": "Senior Spin Correspondent" },
+      "body": [
+        "CUBBON PARK — Every Sunday, in flagrant defiance of the city's official mood, dozens of Bengalureans gather under the trees near Hemavathi Park and rotate long sticks with what witnesses can only describe as 'intent'. The ringleader, one Captain Technofire, has confirmed to The Playbook that the ritual will continue indefinitely.",
+        "\"It's a staff jam,\" the Captain explained, spinning a staff in a manner this correspondent's insurance policy explicitly forbids. \"Everyone is welcome. Even beginners. Even you, Ramaswamy.\" This reporter declined, citing Silk Board traffic, a previous engagement, and cowardice.",
+        "The Laughter Epidemiology desk notes that giggle readings within a 200-metre radius of the jam spike to levels last recorded during the Great Laughter Epidemic. Authorities remain baffled, which authorities famously enjoy.",
+        "At press time, a squirrel had picked up a small twig and was reportedly 'showing real promise'."
+      ],
+      "pullQuote": "\"I have never seen anything spin like that, and I own a washing machine.\" — bystander, visibly moved",
+      "imagePath": "/api/playbook/img/2026-07-02/DXy0UqukXjG.jpg",
+      "imageCaption": "The Sunday ritual in progress. Note the intent.",
+      "imageCredit": "Playbook Staff Photographer (allegedly)",
+      "sources": ["https://www.instagram.com/p/DXy0UqukXjG/"],
+      "weight": 10
+    },
+    {
+      "slug": "corporate-infiltration",
+      "kicker": "BUSINESS",
+      "headlines": [
+        "SUPERVILLAINS INFILTRATE CORPORATE OFFICE; PRODUCTIVITY PLUMMETS DELIGHTFULLY",
+        "LOCAL COMPANY HIRES VILLAINS ON PURPOSE, REGRETS NOTHING"
+      ],
+      "subhead": "HR department reportedly 'still finding juggling balls in the conference room, and honestly, keeping them'",
+      "byline": { "name": "Meera 'Deadline' D'Souza", "title": "Chief Laughter Epidemiologist" },
+      "body": [
+        "AN OFFICE, SOMEWHERE ON OUTER RING ROAD — In a brazen daylight operation, the group known as Supervillains.wtf infiltrated a corporate campus armed with hoops, poi, and an agenda of organised delight. Sources confirm the operation was, disturbingly, requested and paid for.",
+        "\"One moment I was stressed about my deadlines,\" said one employee, name withheld because their manager reads this paper. \"The next, I was laughing uncontrollably with people from a team I'd only ever fought with on Slack.\"",
+        "Quarterly seriousness metrics are expected to take months to recover. The company has reportedly enquired about 'doing it again, quarterly'. The Playbook's business desk rates this economy 'suspiciously joyful'."
+      ],
+      "pullQuote": "\"We fought on Slack. Now we juggle together. I don't fully understand it either.\"",
+      "imagePath": "/api/playbook/img/2026-07-02/DItHqruS36r.jpg",
+      "imageCaption": "Evidence of organised delight, recovered from the scene.",
+      "imageCredit": "Playbook Staff Photographer (allegedly)",
+      "sources": ["https://www.instagram.com/p/DItHqruS36r/"],
+      "weight": 8
+    },
+    {
+      "slug": "mufasa-refuses-small",
+      "kicker": "SPECIAL FEATURE",
+      "headlines": [
+        "LOCAL MAGICIAN FORMALLY RESIGNS FROM BEING SMALL AND QUIET",
+        "MUFASA MAGIQUE DECLARES WAR ON SHRINKING; SHRINKING REPORTEDLY TERRIFIED"
+      ],
+      "subhead": "'Somewhere along the way, we learned to make ourselves smaller,' says man visibly refusing to do so",
+      "byline": { "name": "Dr. Levita Wand", "title": "Science Desk (Levitation Studies)" },
+      "body": [
+        "INDIRANAGAR — In a statement that has rattled the city's quietness industry, performer Mufasa Magique observed this week that somewhere along the way, we all learned to make ourselves smaller and quieter — and then declined, publicly and with props, to continue doing so.",
+        "The Science Desk can confirm that audiences exposed to this philosophy exhibit measurable increases in posture, eye contact, and the urge to try spinning something. Peer review is pending, but the peers keep running off to jams.",
+        "The Concerned Uncle of Jayanagar has written in to say this is 'exactly the sort of thing' he was worried about. He has also asked, quietly, where the next show is."
+      ],
+      "pullQuote": "\"Shrinking is a habit. So is flow. Choose your habit.\"",
+      "imagePath": "/api/playbook/img/2026-07-02/DXgz8sPDXtQ.jpg",
+      "imageCaption": "The moment of formal resignation from smallness.",
+      "imageCredit": "Playbook Staff Photographer (allegedly)",
+      "sources": ["https://www.instagram.com/p/DXgz8sPDXtQ/"],
+      "weight": 7
+    },
+    {
+      "slug": "hoop-diplomacy",
+      "kicker": "DIPLOMACY",
+      "headlines": [
+        "HOOP DIPLOMACY: SUPRIYA TAKES THE REVOLUTION TO THE INTERVIEW CIRCUIT",
+        "NATION'S HOOPS BRIEFLY UNATTENDED AS SUPRIYA SITS DOWN FOR A CONVERSATION"
+      ],
+      "subhead": "The Hoop Affairs Desk confirms: the ideas are spinning even when the hoops are not",
+      "byline": { "name": "Hoopsworth Iyer III", "title": "Hoop Affairs Desk" },
+      "body": [
+        "THE INTERNET — In a development the Hoop Affairs Desk describes as 'inevitable, frankly', hoop ambassador Supriya has taken the movement from the park to the podcast, sitting down in conversation to explain how the whole gloriously circular idea began.",
+        "Listeners report the dangerous side effect of suddenly wanting to buy a hoop. The Great Hoop Shortage desk has been notified and is 'monitoring the situation with dread'.",
+        "This desk's aristocratic lineage of hula hoopers wishes to state, for the record: we told you so, sometime around 1987."
+      ],
+      "pullQuote": "",
+      "imagePath": "/api/playbook/img/2026-07-02/DNQilBwSoH9.jpg",
+      "imageCaption": "Diplomacy, in progress. Gravity — the opposition — was not invited.",
+      "imageCredit": "Playbook Staff Photographer (allegedly)",
+      "sources": ["https://www.instagram.com/p/DNQilBwSoH9/"],
+      "weight": 6
+    },
+    {
+      "slug": "flowshaala-highlights",
+      "kicker": "CULTURE",
+      "headlines": [
+        "FLOWSHAALA RELEASES HIGHLIGHTS; CITY'S EXCUSES FOR NOT FLOWING WEAR THIN",
+        "'FINDING YOUR FLOW' NOW OFFICIALLY EASIER THAN FINDING PARKING IN INDIRANAGAR"
+      ],
+      "subhead": "Correspondents confirm the flow was, in fact, found",
+      "byline": { "name": "Agni Kumar", "title": "Fire & Pyrotechnics Editor (Suspended Pending Enquiry)" },
+      "body": [
+        "BENGALURU — Flowshaala has published highlight footage of humans locating their flow, a substance this newspaper's legal desk insists we clarify is not literally lost property, despite what our classifieds section may imply.",
+        "The footage shows citizens of assorted sizes and seriousness levels discovering that their arms can, in fact, do that. Several were heard laughing in a manner consistent with the ongoing epidemic.",
+        "The legal desk also wishes to note that this correspondent's suspension has nothing to do with the flow and everything to do with 'the incident', about which we are legally required to say nothing further."
+      ],
+      "pullQuote": "",
+      "imagePath": "/api/playbook/img/2026-07-02/DEgi7uhTkOP.jpg",
+      "imageCaption": "Flow: found. Case closed.",
+      "imageCredit": "Playbook Staff Photographer (allegedly)",
+      "sources": ["https://www.instagram.com/p/DEgi7uhTkOP/"],
+      "weight": 5
+    }
+  ],
+  "classifieds": [
+    { "heading": "LOST", "text": "One (1) sense of self-consciousness, last seen entering Sunday staff jam. If found, do not return." },
+    { "heading": "FOR SALE", "text": "Dignity, gently used, abandoned mid-hoop-tutorial. Free to good home. Contact: everyone at the jam." },
+    { "heading": "WANTED", "text": "Photograph of The Badger. Reward: three filter coffees and an editorial apology. Serious enquiries only." },
+    { "heading": "FOUND", "text": "Flow. Multiple units. Claim at Flowshaala; proof of curiosity required." },
+    { "heading": "FOR SALE", "text": "Slightly singed eyebrows, pair. Ask for Agni at the legal desk. Do not ask about the incident." },
+    { "heading": "MISSING", "text": "Approximately 40 hoops, vanished coinciding with a certain tutorial. The Shortage Desk is 'aware'." },
+    { "heading": "SERVICES", "text": "Will explain poi to your relatives at family functions. Rates negotiable. Trauma-informed." },
+    { "heading": "NOTICE", "text": "The squirrel from page one is now accepting students. Twigs provided. — mgmt, Cubbon Park" },
+    { "heading": "WANTED", "text": "Someone to hold my chai while I try 'just one throw'. Long-term position. Benefits include watching." },
+    { "heading": "PUBLIC NOTICE", "text": "The Playbook is not responsible for careers abandoned after attending one (1) jam." }
+  ],
+  "horoscopes": [
+    { "prop": "Hula Hoop", "sign": "◯", "text": "You are entering your circular era. Everything comes back around, especially the hoop, at speed, toward your chin. Stay graceful." },
+    { "prop": "Poi", "sign": "∞", "text": "The universe rewards commitment to the swing. So does your left ear, with a bruise. Mercury is in retrograde; your planes are not." },
+    { "prop": "Staff", "sign": "|", "text": "You will meet a tall, spinning stranger. It is a staff. It was always a staff. Sunday, Cubbon Park. Destiny is punctual." },
+    { "prop": "Juggling Clubs", "sign": "⋀", "text": "Three is a magic number. So is two, briefly, and then one, and then a walk to fetch them all. Growth is nonlinear." },
+    { "prop": "Levitation Wand", "sign": "—", "text": "People will ask if it's magnets. Smile. Say nothing. Dr. Wand says the truth is 'basically peer-reviewed'." },
+    { "prop": "Fire Props", "sign": "🜂", "text": "A hot streak approaches. Consult Agni before acting on it. Actually, given the enquiry, consult literally anyone else." }
+  ],
+  "letters": [
+    {
+      "from": "Concerned Uncle, Jayanagar",
+      "text": "Dear Editor, I have observed young people spinning objects in the park with alarming happiness. In my day we were tense and we LIKED it. What is this city coming to?",
+      "editorReply": "Sir, our records show you attended three jams this month and applauded twice. The Badger sees everything. — Ed."
+    },
+    {
+      "from": "Recently Converted, HSR Layout",
+      "text": "I attended one workshop 'ironically'. I now own two hoops, a poi set, and opinions about wrist flexibility. Send help.",
+      "editorReply": "This is a normal and irreversible condition. Welcome. Your third hoop is already in transit. — Ed."
+    }
+  ],
+  "ads": [
+    { "title": "FLOWSHAALA", "copy": "Find your flow. It's been looking for you too. Classes weekly — resistance futile, joy mandatory." },
+    { "title": "HIRE THE SUPERVILLAINS", "copy": "We will infiltrate your office and leave it measurably happier. References available. supervillains.wtf/play" }
+  ]
+}

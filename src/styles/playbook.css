@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f4efe4;
+  --color-paper-dark: #eae3d2;
+  --color-ink: #1c1a17;
+  --color-ink-faint: #1c1a1755;
+  --color-press-red: #e01313;
+  --font-blackletter: "UnifrakturCook", serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Old Standard TT", Georgia, serif;
+}
+
+/* Pulp-paper grain over the whole page */
+.paper-grain {
+  background-color: var(--color-paper);
+  position: relative;
+}
+.paper-grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.42 0 0 0 0 0.38 0 0 0 0 0.30 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+/* Soft vignette like an old broadsheet under a lamp */
+.paper-grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 39;
+  background: radial-gradient(ellipse at 50% 30%, transparent 55%, rgba(60, 45, 20, 0.14) 100%);
+}
+
+/* Newsprint halftone photo treatment */
+.halftone {
+  position: relative;
+  display: block;
+}
+.halftone img {
+  display: block;
+  width: 100%;
+  filter: grayscale(1) sepia(0.28) contrast(1.12) brightness(1.04);
+}
+.halftone::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, rgba(28, 26, 23, 0.22) 1px, transparent 1.4px);
+  background-size: 3px 3px;
+  mix-blend-mode: multiply;
+}
+
+/* Torn red clipping (masthead accent) */
+.torn-clip {
+  background: var(--color-press-red);
+  clip-path: polygon(
+    2% 6%, 9% 0%, 22% 4%, 34% 1%, 47% 5%, 60% 0%, 73% 4%, 86% 1%, 97% 5%,
+    100% 22%, 97% 38%, 100% 55%, 96% 72%, 99% 88%, 93% 100%,
+    78% 96%, 63% 100%, 49% 95%, 34% 100%, 20% 96%, 8% 100%, 0% 92%,
+    3% 74%, 0% 55%, 4% 38%, 1% 20%
+  );
+  filter: drop-shadow(2px 3px 0 rgba(28, 26, 23, 0.35));
+}
+
+/* Multi-column article flow with hairline rules */
+.news-columns {
+  column-gap: 2rem;
+  column-rule: 1px solid var(--color-ink-faint);
+}
+
+/* Drop cap for the lead article */
+.drop-cap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 900;
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.8;
+  padding-right: 0.08em;
+  padding-top: 0.05em;
+}
+
+/* Thick-thin double rule, the classic broadsheet divider */
+.double-rule {
+  border-top: 3px solid var(--color-ink);
+  border-bottom: 1px solid var(--color-ink);
+  height: 6px;
+}
+
+/* Rubber-stamp look for BREAKING + the regen button */
+.stamp {
+  font-family: var(--font-display);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: var(--color-press-red);
+  border: 3px solid var(--color-press-red);
+  border-radius: 3px 8px 4px 7px;
+  mix-blend-mode: multiply;
+  text-transform: uppercase;
+}
+
+.ticker-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker-scroll 45s linear infinite;
+}
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Quick "re-print" transition when the paper regenerates */
+.reprint-enter-active { transition: opacity 0.45s ease, transform 0.45s ease; }
+.reprint-enter-from { opacity: 0; transform: translateY(10px) scale(0.995); }
+
+.fleuron-divider { text-align: center; letter-spacing: 0.6em; color: var(--color-ink); opacity: 0.7; }
+
+@media print {
+  .no-print { display: none !important; }
+}
